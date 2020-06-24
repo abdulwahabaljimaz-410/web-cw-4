@@ -15,21 +15,32 @@ html, body{
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: black;
+    
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 80px;
+    background-color:teal;
+    height: 25%;
 }
 
 .main{
+    background-color: turquoise;
+    height: 75%;
 
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+    text-decoration: none;
 }
-
+a:hover{
+    color: white;
+}
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
@@ -39,10 +50,31 @@ a{
 h1{
     margin: 0;
     margin-right: 5px;
+    color: white;
 }
 
 h2{
     margin: 0;
     margin-left: 5px;
+    color: white;
 }
+.flex{
+    display: flex;
+    height: 100%;
+}
+.aaa{
+    display: inline-block;
+    height: 100%;
+}
+.center{
+    text-align: center;
+}
+.k{
+font-size: 40px;
+text-align: center;
 
+}
+.k:hover{
+    color: red;
+    transform: scale(1.05);
+}
